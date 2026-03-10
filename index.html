@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuestBoard - Home</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/Icons/QuestBoard_Icon1.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-lower-border" style="height: 2.5px; background: var(--darker-blue-color)"></div>        
+        <div class="header-lower-border" style="height: 5px; background: var(--blue-color)"></div>
+        <div class="header-lower-border" style="height: 7.5px; background: var(--lighter-blue-color)"></div>
+        <div class="content-container">
+            <h1 class="title">QuestBoard</h1>
+            <div class="nav-menu">
+                <a href="">Sign In</a>
+                <a href="">Log In</a>
+            </div>
+        </div>
+        <div class="header-lower-border" style="height: 7.5px; background: var(--lighter-blue-color)"></div>
+        <div class="header-lower-border" style="height: 5px; background: var(--blue-color)"></div>
+        <div class="header-lower-border" style="height: 2.5px; background: var(--darker-blue-color)"></div>
+    </header>
+    
+    <main>
+        <section class="content-scroll">
+            <section class="inner-container">
+                <h1>Navigation</h1>
+                <section class="list-navigation">
+                    <div class="input-bar" id="search">
+                        <button id="searchButton"></button>
+                        <img src="images/Icons/search-icon.svg" alt="">
+                        <input type="search" name="input">
+                    </div>
+                    <div class="option-bar" id="tags">
+                        <img src="images/Icons/tag-icon.svg" alt="">
+                        <p>T a g s</p>
+                        <button></button>
+                    </div>
+                    <div class="option-bar" id="filter">
+                        <img src="images/Icons/filter-icon.svg" alt="">
+                        <p>F i l t e r</p>
+                        <button></button>
+                    </div>
+                    <div class="option-bar" id="sort">
+                        <img src="images/Icons/sort-icon.svg" alt="">
+                        <p>S o r t</p>
+                        <button></button>
+                    </div>
+                </section>
+                <!-- <hr> -->
+                <h1>Quests</h1>
+                <section class="list">
+                    <div class="list-item">
+                        <h1 id="qName">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, sequi quidem ab esse accusantium assumenda nam ea, aliquid voluptatum fuga exercitationem repellendus expedita perferendis, dicta et aspernatur ipsam voluptates harum?</h1>
+                        <p id="qDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in consequuntur, rerum perferendis sed voluptatum ad sunt suscipit aliquid nulla veritatis, aliquam, at inventore possimus harum explicabo quam quis itaque?</p>
+                        <div id="qStats">
+                            <p id="qSalary">10,000$/m</p>
+                            <p id="qRequirements">Experience: 5 years</p>
+                        </div>
+                        <button id="qReplyButton"><p>Reply</p></button>
+                        <div id="qTagsContainer">
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                        </div>
+                    </div>
+
+                    <div class="list-item">
+                        <h1 id="qName">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, sequi quidem ab esse accusantium assumenda nam ea, aliquid voluptatum fuga exercitationem repellendus expedita perferendis, dicta et aspernatur ipsam voluptates harum?</h1>
+                        <p id="qDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in consequuntur, rerum perferendis sed voluptatum ad sunt suscipit aliquid nulla veritatis, aliquam, at inventore possimus harum explicabo quam quis itaque?</p>
+                        <div id="qStats">
+                            <p id="qSalary">10,000$/m</p>
+                            <p id="qRequirements">Experience: 5 years</p>
+                        </div>
+                        <button id="qReplyButton"><p>Reply</p></button>
+                        <div id="qTagsContainer">
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                        </div>
+                    </div>
+
+                    <div class="list-item">
+                        <h1 id="qName">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, sequi quidem ab esse accusantium assumenda nam ea, aliquid voluptatum fuga exercitationem repellendus expedita perferendis, dicta et aspernatur ipsam voluptates harum?</h1>
+                        <p id="qDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in consequuntur, rerum perferendis sed voluptatum ad sunt suscipit aliquid nulla veritatis, aliquam, at inventore possimus harum explicabo quam quis itaque?</p>
+                        <div id="qStats">
+                            <p id="qSalary">10,000$/m</p>
+                            <p id="qRequirements">Experience: 5 years</p>
+                        </div>
+                        <button id="qReplyButton"><p>Reply</p></button>
+                        <div id="qTagsContainer">
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                        </div>
+                    </div>
+
+                    <div class="list-item">
+                        <h1 id="qName">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, sequi quidem ab esse accusantium assumenda nam ea, aliquid voluptatum fuga exercitationem repellendus expedita perferendis, dicta et aspernatur ipsam voluptates harum?</h1>
+                        <p id="qDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in consequuntur, rerum perferendis sed voluptatum ad sunt suscipit aliquid nulla veritatis, aliquam, at inventore possimus harum explicabo quam quis itaque?</p>
+                        <div id="qStats">
+                            <p id="qSalary">10,000$/m</p>
+                            <p id="qRequirements">Experience: 5 years</p>
+                        </div>
+                        <button id="qReplyButton"><p>Reply</p></button>
+                        <div id="qTagsContainer">
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                        </div>
+                    </div>
+
+                    <div class="list-item">
+                        <h1 id="qName">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, sequi quidem ab esse accusantium assumenda nam ea, aliquid voluptatum fuga exercitationem repellendus expedita perferendis, dicta et aspernatur ipsam voluptates harum?</h1>
+                        <p id="qDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in consequuntur, rerum perferendis sed voluptatum ad sunt suscipit aliquid nulla veritatis, aliquam, at inventore possimus harum explicabo quam quis itaque?</p>
+                        <div id="qStats">
+                            <p id="qSalary">10,000$/m</p>
+                            <p id="qRequirements">Experience: 5 years</p>
+                        </div>
+                        <button id="qReplyButton"><p>Reply</p></button>
+                        <div id="qTagsContainer">
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                        </div>
+                    </div>
+
+                    <div class="list-item">
+                        <h1 id="qName">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, sequi quidem ab esse accusantium assumenda nam ea, aliquid voluptatum fuga exercitationem repellendus expedita perferendis, dicta et aspernatur ipsam voluptates harum?</h1>
+                        <p id="qDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in consequuntur, rerum perferendis sed voluptatum ad sunt suscipit aliquid nulla veritatis, aliquam, at inventore possimus harum explicabo quam quis itaque?</p>
+                        <div id="qStats">
+                            <p id="qSalary">10,000$/m</p>
+                            <p id="qRequirements">Experience: 5 years</p>
+                        </div>
+                        <button id="qReplyButton"><p>Reply</p></button>
+                        <div id="qTagsContainer">
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                        </div>
+                    </div>
+
+                    <div class="list-item">
+                        <h1 id="qName">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, sequi quidem ab esse accusantium assumenda nam ea, aliquid voluptatum fuga exercitationem repellendus expedita perferendis, dicta et aspernatur ipsam voluptates harum?</h1>
+                        <p id="qDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in consequuntur, rerum perferendis sed voluptatum ad sunt suscipit aliquid nulla veritatis, aliquam, at inventore possimus harum explicabo quam quis itaque?</p>
+                        <div id="qStats">
+                            <p id="qSalary">10,000$/m</p>
+                            <p id="qRequirements">Experience: 5 years</p>
+                        </div>
+                        <button id="qReplyButton"><p>Reply</p></button>
+                        <div id="qTagsContainer">
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                        </div>
+                    </div>
+
+                    <div class="list-item">
+                        <h1 id="qName">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, sequi quidem ab esse accusantium assumenda nam ea, aliquid voluptatum fuga exercitationem repellendus expedita perferendis, dicta et aspernatur ipsam voluptates harum?</h1>
+                        <p id="qDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in consequuntur, rerum perferendis sed voluptatum ad sunt suscipit aliquid nulla veritatis, aliquam, at inventore possimus harum explicabo quam quis itaque?</p>
+                        <div id="qStats">
+                            <p id="qSalary">10,000$/m</p>
+                            <p id="qRequirements">Experience: 5 years</p>
+                        </div>
+                        <button id="qReplyButton"><p>Reply</p></button>
+                        <div id="qTagsContainer">
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                        </div>
+                    </div>
+
+                    <div class="list-item">
+                        <h1 id="qName">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, sequi quidem ab esse accusantium assumenda nam ea, aliquid voluptatum fuga exercitationem repellendus expedita perferendis, dicta et aspernatur ipsam voluptates harum?</h1>
+                        <p id="qDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in consequuntur, rerum perferendis sed voluptatum ad sunt suscipit aliquid nulla veritatis, aliquam, at inventore possimus harum explicabo quam quis itaque?</p>
+                        <div id="qStats">
+                            <p id="qSalary">10,000$/m</p>
+                            <p id="qRequirements">Experience: 5 years</p>
+                        </div>
+                        <button id="qReplyButton"><p>Reply</p></button>
+                        <div id="qTagsContainer">
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                            <p id="qTag">TagName</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <h1>QUESTBOARD</h1>
+        <p>Companies, guilds, and individuals can post quests — tasks, projects, or jobs — while seekers browse the board to find opportunities that match their skills. QUESTBOARD makes discovering work simple, fast, and rewarding, turning everyday jobs into quests waiting to be completed.</p>
+        <div>
+            <button><img src="images/Icons/facebook-icon.svg" alt=""></button>
+            <button><img src="images/Icons/gmail-icon.svg" alt=""></button>
+            <button><img src="images/Icons/twitter-icon.svg" alt=""></button>
+            <button><img src="images/Icons/googleplus-icon.svg" alt=""></button>
+            <button><img src="images/Icons/linkedin-icon.svg" alt=""></button>
+        </div>
+    </footer>
+</body>
+</html>
